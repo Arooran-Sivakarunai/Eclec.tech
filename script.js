@@ -7,7 +7,7 @@ function getReccomendations(param){
     headers: {
       accept: 'application/json',
       'content-type': 'application/json',
-      authorization: 'Bearer Oh1es31Wp6IsJsprjOEpu5vpAy7upTQytwLyLaST'
+      authorization: auth_value
     },
     body: JSON.stringify({
       return_documents: true,
