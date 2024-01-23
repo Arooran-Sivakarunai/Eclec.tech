@@ -1,0 +1,4 @@
+steps:
+  - shell: bash
+    env:
+      auth_valueT: ${{ secrets.AUTH_VALUE }}
